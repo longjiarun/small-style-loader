@@ -1,23 +1,23 @@
 ## Install
 
 ```javascript
-npm install stylesheet-loader --save
+npm install small-style-loader --save
 ```
 
 ## Usage
 Documentation: Using loaders[http://webpack.github.io/docs/using-loaders.html]
 
-smaller than style-loader
+Smaller than style-loader
 
 ```javascript
     //config
     module: {
         loaders: [{
             test: /\.css$/,
-            loader: 'stylesheet-loader'
+            loader: 'small-style-loader'
         },{
             test: /\.less$/,
-            loader: 'stylesheet-loader!less-loader'
+            loader: 'small-style-loader!less-loader'
         }]
     }
 
@@ -26,10 +26,10 @@ smaller than style-loader
     module: {
         loaders: [{
             test: /\.css$/,
-            loader: 'stylesheet-loader?{"insertAt":"top"}'
+            loader: 'small-style-loader?{"insertAt":"top"}'
         },{
             test: /\.less$/,
-            loader: 'stylesheet-loader?{"insertAt":"top"}!less-loader'
+            loader: 'small-style-loader?{"insertAt":"top"}!less-loader'
         }]
     }
 ```

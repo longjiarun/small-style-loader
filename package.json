@@ -1,6 +1,6 @@
 {
-  "name": "stylesheet-loader",
-  "version": "1.0.0",
+  "name": "small-style-loader",
+  "version": "1.0.1",
   "description": "stylesheet loader",
   "main": "index.js",
   "dependencies": {
